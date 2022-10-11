@@ -20,9 +20,9 @@ test('should render the Todo list and input field', async () => {
 
 });
 
-test('should render the Todo list and input field', async () => {
-  render(<MockFollowerList />);
-  const followerElements = await screen.findAllByTestId(/follower-item/i);
-  expect(followerElements.length).toBe(5);
+// test('should render the Todo list and input field', async () => {
+//   render(<MockFollowerList />);
+//   const followerElements = await screen.findAllByTestId(/follower-item/i);
+//   expect(followerElements.length).toBe(5);
 
-});
+// });
